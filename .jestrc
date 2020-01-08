@@ -1,0 +1,33 @@
+{
+  "coverageThreshold": {
+    "global": {
+      "lines": 70
+    }
+  },
+  "coveragePathIgnorePatterns": [
+    "/node_modules/",
+    "/test/"
+  ],
+  "collectCoverageFrom": [
+    "src/**/*.ts",
+    "!src/bin/**",
+    "!src/migrations/**",
+    "!src/seeders/**"
+  ],
+  "roots": [
+    "<rootDir>/src"
+  ],
+  "transform": {
+    "^.+\\.ts?$": "ts-jest"
+  },
+  "testEnvironment": "node",
+  "testRegex": "(/tests/.*|(\\.|/)(test|spec))\\.tsx?$",
+  "moduleFileExtensions": [
+    "ts",
+    "tsx",
+    "js",
+    "jsx",
+    "json",
+    "node"
+  ]
+}

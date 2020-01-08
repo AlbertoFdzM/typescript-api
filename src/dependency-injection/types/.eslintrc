@@ -1,0 +1,7 @@
+{
+  "rules": {
+    "@typescript-eslint/typedef": [
+      "off"
+    ]
+  }
+}
